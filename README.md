@@ -41,7 +41,9 @@
 - 프로젝트 기획, 설계, 문서화, 일정관리, WBS 작성, Flowchart, ERD 설계 등 프로젝트 전반적인 관리 업무를 포괄적으로 다룸
 
 <div align="center">
-<a src="https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link">WBS 👈</a>
+
+[![WBS](https://img.shields.io/badge/WorkBreakdownStructure-4285F4.svg?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link)
+
 <img width="300" src="/assets/images/user_flowchart.png"/>
 <img width="300" src="/assets/images/process_flowchart.png"/>
 </div>
@@ -78,7 +80,7 @@
 - Google Mediapipe 기반 운동 자세 분석 기능
 
 <div align="center">
-<img width="300" src="/assets/images/analyze.png"/>
+<img width="800" src="/assets/images/analyze.png"/>
 </div>
 
 ---
