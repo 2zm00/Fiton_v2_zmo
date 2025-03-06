@@ -20,7 +20,7 @@
 
 
 
-[![Repository](https://img.shields.io/badge/Repository-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/2zm00/Fiton_v2) [![WBS](https://img.shields.io/badge/WorkBreakdownStructure-4285F4.svg?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link) [![System-Architecture](https://img.shields.io/badge/System_Architecture-8CA1AF.svg?style=for-the-badge&logo=googledocs&logoColor=white)]()
+[![Repository](https://img.shields.io/badge/Repository-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/2zm00/Fiton_v2) [![WBS](https://img.shields.io/badge/WorkBreakdownStructure-4285F4.svg?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link) [![System-Architecture](https://img.shields.io/badge/System_Architecture-8CA1AF.svg?style=for-the-badge&logo=googledocs&logoColor=white)](https://github.com/2zm00/Fiton_v2_zmo/blob/main/assets/images/system_architecture.PNG)
 
 
 
@@ -38,7 +38,7 @@
 ## 주요기능 구현:
 
 ### 0. 팀 리드
-- 프로젝트 기획, 설계, 문서화, 일정관리, WBS 작성, Flowchart, ERD 설계 등 프로젝트 전반적인 관리 업무를 포괄적으로 다룸
+- 프로젝트 기획, 설계, 문서화, 일정관리, WBS 작성, Flowchart, ERD 설계 등 프로젝트 전반적인 관리 업무를 포괄적으로 다루었습니다.
 
 <div align="center">
 
@@ -47,8 +47,9 @@
 <img width="300" src="/assets/images/user_flowchart.png"/>
 <img width="300" src="/assets/images/process_flowchart.png"/>
 </div>
+<br/>
 
-- 커밋 컨벤션 문서화, 기능명세서, Milestone, LLM 코드 리뷰 도입 등
+- 커밋 컨벤션 문서화, 기능명세서, Milestone, LLM 코드 리뷰 등을 프로젝트에 도입하였습니다.
 
 <div align="center">
 <img width="300" src="/assets/images/milestone.PNG"/>
@@ -56,28 +57,28 @@
 </div>
 
 ### 1. 프론트엔드
-- React, Next.js 기반 개발 환경 구축, 반응형 UI/UX 설계
-- REST API 연동 및 상태 관리 시스템 구현
-- SEO 최적화 및 성능 개선
+- React, Next.js 기반 개발 환경 구축, 반응형 UI/UX를 설계하였습니다.
+- REST API 연동 및 상태 관리 시스템을 구현하였습니다.
+- SEO 최적화 및 성능을 개선하였습니다.
 
 <div align="center">
 <img width="300" src="/assets/images/ui.png"/>
 </div>
 
 ### 2. 인프라 구축
-- Docker Compose와 nginx를 활용한 마이크로서비스 아키텍처 구현
-- S3, MinIO를 활용한 확장 가능한 스토리지 인프라 구축
-- AWS EC2, Oracle Cloud 인스턴스 운영 및 관리
+- Docker Compose와 nginx를 활용한 마이크로서비스 아키텍처를 구현하였습니다.
+- S3, MinIO를 활용한 확장 가능한 스토리지 인프라를 구축하였습니다.
+- AWS EC2, Oracle Cloud 인스턴스 운영 및 관리하였습니다.
 
 ### 3. Devops 환경 구축
-- Github Actions를 활용한 CI/CD 파이프라인 구현
-- Docker 컨테이너 기반 배포 자동화
+- Github Actions를 활용한 CI/CD 파이프라인을 구현하였습니다.
+- Docker 컨테이너 기반 배포를 자동화 하였습니다.
 - MSA 아키텍처 설계 및 구현 (프론트엔드/백엔드/DB/스토리지 분리)
-- 마이크로서비스 간 통신 구조 최적화
+- 마이크로서비스 간 통신 구조를 최적화 하였습니다.
 
 ### 4. AI 기능 구현
-- Langchain과 HuggingFace 기반 AI 챗봇 서비스 개발
-- Google Mediapipe 기반 운동 자세 분석 기능
+- Langchain과 HuggingFace 기반 AI 챗봇 서비스를 개발하였습니다.
+- Google Mediapipe 기반 운동 자세 분석 기능을 도입하였습니다.
 
 <div align="center">
 <img width="800" src="/assets/images/analyze.png"/>
@@ -98,7 +99,7 @@
 
 ---
 ## 프로젝트 관리:
-- 일일 스탠드업 및 팀 미팅 주도적으로 이끌었습니다.
+- 일일 스크럼 미팅 주도적으로 이끌었습니다.
 - 프로젝트 일정 및 산출물을 관리하였습니다.
 ---
 
