@@ -6,7 +6,7 @@
 <img 
 	align="center"
 	src='assets/images/fiton_logo.png' 
-	width="70"
+	width="300"
 	style="margin-right: 10px;"
 />
 
@@ -40,21 +40,27 @@
 ### 0. 팀 리드
 - 프로젝트 기획, 설계, 문서화, 일정관리, WBS 작성, Flowchart, ERD 설계 등 프로젝트 전반적인 관리 업무를 포괄적으로 다룸
 
-<h3 align="center"><a src="https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link">WBS 👈</a></h3>
-<img align="center" width="300" src="/assets/images/user_flowchart.png"/>
-<img align="center" width="300" src="/assets/images/process_flowchart.png.png"/>
+<div align="center">
+<a src="https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link">WBS 👈</a>
+<img width="300" src="/assets/images/user_flowchart.png"/>
+<img width="300" src="/assets/images/process_flowchart.png"/>
+</div>
 
 - 커밋 컨벤션 문서화, 기능명세서, Milestone, LLM 코드 리뷰 도입 등
 
-<img align="center" width="300" src="/assets/images/milestone.PNG"/>
-<img align="center" width="300" src="/assets/images/code_review.png"/>
+<div align="center">
+<img width="300" src="/assets/images/milestone.PNG"/>
+<img width="300" src="/assets/images/code_review.png"/>
+</div>
 
 ### 1. 프론트엔드
 - React, Next.js 기반 개발 환경 구축, 반응형 UI/UX 설계
 - REST API 연동 및 상태 관리 시스템 구현
 - SEO 최적화 및 성능 개선
 
-<img align="center" width="300" src="/assets/images/ui.png"/>
+<div align="center">
+<img width="300" src="/assets/images/ui.png"/>
+</div>
 
 ### 2. 인프라 구축
 - Docker Compose와 nginx를 활용한 마이크로서비스 아키텍처 구현
@@ -71,7 +77,9 @@
 - Langchain과 HuggingFace 기반 AI 챗봇 서비스 개발
 - Google Mediapipe 기반 운동 자세 분석 기능
 
-<img align="center" width="300" src="/assets/images/analyze.png"/>
+<div align="center">
+<img width="300" src="/assets/images/analyze.png"/>
+</div>
 
 ---
 ## 주요 기술 스택
