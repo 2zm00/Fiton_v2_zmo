@@ -31,7 +31,8 @@
 
 ---
 ## 주요 기술 스택
-
+<div align="center">
+	
 | 영역         | 기술 스택                                                                 |
 |--------------|--------------------------------------------------------------------------|
 | **[프론트엔드](pplx://action/followup)** | <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>    <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>                    <img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>  <img src="https://img.shields.io/badge/-Tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>                             |
@@ -42,12 +43,14 @@
 | **웹 서버**      | <img src="https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white"/> |
 | **AI/ML**        | <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>  <img src="https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white"/> <img src="https://img.shields.io/badge/-MediaPipe-0097A7?style=for-the-badge&logo=mediapipe&logoColor=white"/>                               |
 
+</div>
 ---
 
 
 
 
 ## 프로젝트 내 역할
+프로젝트 내에서 저는 이런 작업을 진행했습니다.
 
 ### 팀 리드
 - WBS, Flowchart, ERD 설계, 커밋 컨벤션 문서화, API 연동 정의서, 기능 명세서, GithubProject Milestone을 통해 팀원들과의 협업 커뮤니케이션을 이끌었습니다.
@@ -61,10 +64,10 @@
 - React, Next.js 기반 개발 환경 구축하고 반응형 UI/UX를 설계하였습니다.
 - RestAPI 연동과 훅을 이용한 상태관리를 구현하였습니다.
 - SEO 최적화 및 성능을 개선하였습니다.
-<div align="center">
-<img width="300" src="/assets/images/ui.png"/>
-<img width="300" src="/assets/images/ins_list.png"/>
-</div>
+  
+| 웹 환경 | 모바일 환경 |
+|:---:|:---:|
+| <img width="600" src="/assets/images/ins_list.PNG"/> | <img width="300" src="/assets/images/ui.png"/> |
 
 ### 백엔드
 - FastAPI 기반 AI 모델 API와 운동자세 분석 기능을 구현하여 성능 최적화와 데이터 처리속도 개선했습니다.
@@ -74,12 +77,16 @@
 	(비동기 처리 지원으로 기존 Django 사용 대비 응답시간 40% 단축, 초당 처리량 300% 향상,  20% 메모리 사용량 절감 )
 <div align="center">
 <img width="800" src="/assets/images/analyze.png"/>
+
+ 
+운동 자세 분석 기능 구현 사진
 </div>
 
 
 
 ### 인프라
-- 프론트엔드/스토리지 서버를 AWS EC2로 운영하였습니다. AWS S3 스토리지 비용문제 이슈를 MinIO를 도입하여 비용을 절감했습니다.
+- 프론트엔드/스토리지 서버를 AWS EC2로 운영하였습니다.
+- AWS S3 스토리지 비용문제 이슈를 MinIO를 도입하여 비용을 절감했습니다.
 
 
 	( 월 23$의 비용을 0$으로 절감 매 월 1TB 스토리지 100만 GET 요청 EC2 프리티어 인스턴스 기준)
