@@ -28,81 +28,157 @@
 
 </div>
 
----
-
-## 프로젝트 역할:
-
-**Team Lead, Project Manager**, Frontend Leader, 기획, 문서화, 일정관리, Infrastructure, DevOps, Storage 환경 구축, AI 기능 구현
-
----
-## 주요기능 구현:
-
-### 0. 팀 리드
-- 프로젝트 기획, 설계, 문서화, 일정관리, WBS 작성, Flowchart, ERD 설계 등 프로젝트 전반적인 관리 업무를 포괄적으로 다루었습니다.
-
-<div align="center">
-
-[![WBS](https://img.shields.io/badge/WorkBreakdownStructure-4285F4.svg?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link)
-
-<img width="300" src="/assets/images/user_flowchart.png"/>
-<img width="300" src="/assets/images/process_flowchart.png"/>
-</div>
-<br/>
-
-- 커밋 컨벤션 문서화, 기능명세서, Milestone, LLM 코드 리뷰 등을 프로젝트에 도입하였습니다.
-
-<div align="center">
-<img width="300" src="/assets/images/milestone.PNG"/>
-<img width="300" src="/assets/images/code_review.png"/>
-</div>
-
-### 1. 프론트엔드
-- React, Next.js 기반 개발 환경 구축, 반응형 UI/UX를 설계하였습니다.
-- REST API 연동 및 상태 관리 시스템을 구현하였습니다.
-- SEO 최적화 및 성능을 개선하였습니다.
-
-<div align="center">
-<img width="300" src="/assets/images/ui.png"/>
-</div>
-
-### 2. 인프라 구축
-- Docker Compose와 nginx를 활용한 마이크로서비스 아키텍처를 구현하였습니다.
-- S3, MinIO를 활용한 확장 가능한 스토리지 인프라를 구축하였습니다.
-- AWS EC2, Oracle Cloud 인스턴스 운영 및 관리하였습니다.
-
-### 3. Devops 환경 구축
-- Github Actions를 활용한 CI/CD 파이프라인을 구현하였습니다.
-- Docker 컨테이너 기반 배포를 자동화 하였습니다.
-- MSA 아키텍처 설계 및 구현 (프론트엔드/백엔드/DB/스토리지 분리)
-- 마이크로서비스 간 통신 구조를 최적화 하였습니다.
-
-### 4. AI 기능 구현
-- Langchain과 HuggingFace 기반 AI 챗봇 서비스를 개발하였습니다.
-- Google Mediapipe 기반 운동 자세 분석 기능을 도입하였습니다.
-
-<div align="center">
-<img width="800" src="/assets/images/analyze.png"/>
-</div>
 
 ---
 ## 주요 기술 스택
 
 | 영역         | 기술 스택                                                                 |
 |--------------|--------------------------------------------------------------------------|
-| **[백엔드](pplx://action/followup)**    | [![My Skills](https://skillicons.dev/icons?i=py,django,fastapi)](https://skillicons.dev)                        |
-| **데이터베이스** | [![My Skills](https://skillicons.dev/icons?i=postgres,mysql)](https://skillicons.dev)                                                      |
-| **[프론트엔드](pplx://action/followup)**| [![My Skills](https://skillicons.dev/icons?i=react,nextjs,tailwind,ts)](https://skillicons.dev)                                                          |
-| **인프라**       | AWS S3, MinIO, Oracle Cloud                                              |
-| **CI/CD**        |[![My Skills](https://skillicons.dev/icons?i=githubactions,docker)](https://skillicons.dev) |
-| **웹 서버**      | [![My Skills](https://skillicons.dev/icons?i=nginx)](https://skillicons.dev) |
-| **AI/ML**        | Langchain, HuggingFace, Google Mediapipe                                |
+| **[프론트엔드](pplx://action/followup)** | <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=React&logoColor=white"/>    <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>                    <img src="https://img.shields.io/badge/-Typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>  <img src="https://img.shields.io/badge/-Tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>                             |
+| **[백엔드](pplx://action/followup)**    |  <img src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>    <img src="https://img.shields.io/badge/-Fastapi-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/>                   |
+| **데이터베이스** |       <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"/>  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white"/>      |
+| **인프라**       |  <img src="https://img.shields.io/badge/-AWS_S3-569A31?style=for-the-badge&logo=Amazon-s3&logoColor=white"/>  <img src="https://img.shields.io/badge/-MinIO-C72E49?style=for-the-badge&logo=MinIO&logoColor=white"/>         <img src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/>   <img src="https://img.shields.io/badge/-OCI-FF0000?style=for-the-badge&logoColor=white"/>                                    |
+| **CI/CD**        | <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/-Github%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>  |
+| **웹 서버**      | <img src="https://img.shields.io/badge/-Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white"/> |
+| **AI/ML**        | <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>  <img src="https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=white"/> <img src="https://img.shields.io/badge/-MediaPipe-0097A7?style=for-the-badge&logo=mediapipe&logoColor=white"/>                               |
 
----
-## 프로젝트 관리:
-- 일일 스크럼 미팅 주도적으로 이끌었습니다.
-- 프로젝트 일정 및 산출물을 관리하였습니다.
 ---
 
 
-## 기술문서화:
+
+
+## 프로젝트 내 역할
+
+### 팀 리드
+- WBS, Flowchart, ERD 설계, 커밋 컨벤션 문서화, API 연동 정의서, 기능 명세서, GithubProject Milestone을 통해 팀원들과의 협업 커뮤니케이션을 이끌었습니다.
+<div align="center">
+<img width="300" src="/assets/images/milestone.PNG"/>
+<img width="300" src="/assets/images/user_flowchart.png"/>
+<img width="300" src="/assets/images/process_flowchart.png"/>
+</div>
+
+### 프론트엔드 
+- React, Next.js 기반 개발 환경 구축하고 반응형 UI/UX를 설계하였습니다.
+- RestAPI 연동과 훅을 이용한 상태관리를 구현하였습니다.
+- SEO 최적화 및 성능을 개선하였습니다.
+<div align="center">
+<img width="300" src="/assets/images/ui.png"/>
+<img width="300" src="/assets/images/ins_list.png"/>
+</div>
+
+### 백엔드
+- FastAPI 기반 AI 모델 API와 운동자세 분석 기능을 구현하여 성능 최적화와 데이터 처리속도 개선했습니다.
+- Langchain과 HuggingFace 기반 AI 챗봇 서비스를 개발하였습니다.
+- Google Mediapipe 기반 운동 자세 분석 기능을 도입하였습니다.
+
+	(비동기 처리 지원으로 기존 Django 사용 대비 응답시간 40% 단축, 초당 처리량 300% 향상,  20% 메모리 사용량 절감 )
+<div align="center">
+<img width="800" src="/assets/images/analyze.png"/>
+</div>
+
+
+
+### 인프라
+- 프론트엔드/스토리지 서버를 AWS EC2로 운영하였습니다. AWS S3 스토리지 비용문제 이슈를 MinIO를 도입하여 비용을 절감했습니다.
+
+
+	( 월 23$의 비용을 0$으로 절감 매 월 1TB 스토리지 100만 GET 요청 EC2 프리티어 인스턴스 기준)
+- MSA 아키텍처를 구조를 아키텍처 구조를 통해 애자일하게 관리했습니다. 
+
+	(프론트엔드 / 백엔드 / 데이터베이스 / 스토리지)
+- TDD 기반 모킹 데이터를 통해 안정적인 아키텍처를 구축했습니다.
+### CI/CD
+- Github Actions를 활용한 CI/CD 파이프라인을 구현하였습니다.
+- Docker 컨테이너 기반 배포 프로세스를 구축하여 배포 장애율이 66% 감소하였습니다. 
+
+	(배포시간이 평균 1800s 에서 600s으로 단축)
+
+- GitHub Pull Request 기반 코드 리뷰 과정에서 ChatGPT 자동화 코드 리뷰 기능을 도입하였습니다.
+
+	(PR당 평균 리뷰 시간을 180분에서 30분(70%)으로 감소)
+<div align="center">
+<img width="300" src="/assets/images/code_review.png"/>
+</div>
+
 ---
+
+
+
+
+## 기술문서화
+- WBS 
+
+	(API 연동 정의서, 기능 명세서 등을 확인하 실 수 있습니다.)
+<div align="center">
+
+
+[![WBS](https://img.shields.io/badge/WorkBreakdownStructure-4285F4.svg?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/spreadsheets/d/1IAD58a9fe4KGy730ykC-XTgU4SGzh7CECLaEMhFYmRQ/edit?usp=drive_link)
+
+</div>
+
+- 시스템 아키텍처
+```mermaid
+flowchart LR
+    %% 브라우저 아이콘들
+    Browsers[("Chrome/Firefox/Safari")] --> NEXT
+    
+    %% FE 서버
+    subgraph AWS_FE["aws FE서버"]
+        subgraph Docker1["Docker"]
+            subgraph NEXT["NEXT.js"]
+                Tailwind["Tailwind CSS"]
+                React["React"]
+            end
+            
+            NGINX["NGINX"]
+            MinIO["MinIO"]
+        end
+    end
+    
+    %% BE 서버 - Django
+    subgraph BE_Django["BE서버"]
+        subgraph Docker2["Docker"]
+            subgraph Django["django"]
+                DjangoFramework["Django"]
+                DRF["Django REST framework"]
+            end
+            Postgres["PostgreSQL"]
+        end
+    end
+    
+    %% BE 서버 - FastAPI
+    subgraph AWS_BE["aws BE서버"]
+        subgraph Docker3["Docker"]
+            FastAPI["FastAPI"]
+        end
+    end
+    
+    %% 외부 서비스
+    HuggingFace["Hugging Face"]
+    LangChain["LangChain"]
+    MediaPipe["MediaPipe"]
+    
+    %% 연결
+    NEXT --> NGINX
+    NGINX --> Gunicorn["Gunicorn"]
+    NGINX --> Unicorn["Unicorn"]
+    MinIO <--> NEXT
+    Gunicorn --> Django
+    Unicorn --> FastAPI
+    Django --> Postgres
+    FastAPI --> HuggingFace
+    FastAPI --> LangChain
+    FastAPI --> MediaPipe
+
+```
+
+- Github Project Milestone 작성
+<div align="center">
+<img width="300" src="/assets/images/milestone.PNG"/>
+</div>
+
+- FlowChart 작성
+<div align="center">
+<img width="300" src="/assets/images/user_flowchart.png"/>
+<img width="300" src="/assets/images/process_flowchart.png"/>
+</div>
